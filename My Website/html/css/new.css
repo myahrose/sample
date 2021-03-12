@@ -1,0 +1,67 @@
+body {
+  background-color: #F7F9F9;
+  overflow: auto;
+}
+header {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  background-color: #6B4242;
+  padding: 12px;
+  margin: 0;
+}
+h1 {
+  color: #E6C98C;
+  font-size: 400%;
+}
+h3 {
+    color: #C59A7B;
+    font-family: 'Montserrat', sans-serif;
+  }
+img {
+  display: block;
+  margin: auto;
+}
+.about {
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  color:  #936964;
+}
+.about h3 {
+  text-align: center;
+  background-color: #C59A7B;
+  color: #F7F9F9;
+}
+.nav ul {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+.nav li {
+  display: inline-block;
+}
+.nav a {
+  background: #77838D;
+  background: linear-gradient(#6B4242, #db9897);
+  border-right: 1px solid rgba(0, 0, 0, .3);
+  color: #F7F9F9;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+.nav a:hover {
+  background: #314b60;
+  box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+.nav li:first-child a {
+  border-radius: 4px 0 0 4px;
+}
+.nav li:last-child a {
+  border-right: 0;
+  border-radius: 0 4px 4px 0;
+}
+.socials {
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
